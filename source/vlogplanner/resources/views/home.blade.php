@@ -18,6 +18,8 @@
                <input name="preperation" placeholder="preperation" type="text"></input>
                <input name="materials" placeholder="materials" type="text"></input>
                <input name="intro" placeholder="intro" type="text"></input>
+                              <input name="main" placeholder="main" type="text"></input>
+
                <input name="outro" placeholder="outro" type="text"></input>
                <input name="titles" placeholder="titles" type="text"></input>
                <input name="credits" placeholder="credits" type="text"></input>
@@ -34,6 +36,8 @@
                <input name="sites" placeholder="sites" type="text"></input>
                <input name="social_media" placeholder="socials medias sites" type="text"></input>
                <input name="series" placeholder="series" type="text"></input>
+                              <input name="no" placeholder="series" type="text"></input>
+
             <button type="submit" class="btn btn-primary">Submit</button>
             </fieldset>
 

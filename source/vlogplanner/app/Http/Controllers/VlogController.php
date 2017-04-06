@@ -28,11 +28,13 @@ class VlogController extends Controller
 
 $Vtitle = $request->title;
 $Vdesc = $request->desc;
-$Vprep = $request->prep;
+$Vmat = $request->materials;
+$Vprep = $request->preperation;
 $Vintro = $request->intro;
 $Voutro = $request->outro;
+$Vmain = $request->main;
 $Vtitles = $request->titles;
-$VCredits = $request->credits;
+$Vcredits = $request->credits;
 $Vfilmed = $request->filmed;
 $Vuploaded = $request->uploaded;
 $Vscheduled = $request->scheduled;
@@ -41,15 +43,17 @@ $Vlinks = $request->links;
 $Vsites = $request->sites;
 $Vsocial = $request->social;
 $Vseries = $request->series;
+$Vno = $request->no;
 
 $vlogentries = DB::table('vlogentries')->insert([
 'title' => $Vtitle,
-'desc'  => $Vdesc,
+'description'  => $Vdesc,
 'preperation' => $Vprep,
 'materials' => $Vmat,
 'intro' => $Vintro,
+'main' => $Vmain,
 'outro' => $Voutro,
-'titles' => $vtitles,
+'titles' => $Vtitles,
 'credits' => $Vcredits,
 'filmed' => $Vfilmed,
 'uploaded' => $Vuploaded,
@@ -58,7 +62,9 @@ $vlogentries = DB::table('vlogentries')->insert([
 'links' => $Vlinks,
 'sites' => $Vsites,
 'social_media' => $Vsocial,
-'series' => $Vseries
+'series' => $Vseries,
+'no' => $Vno
+
 ]);
 
 echo json_encode($vlogentries,JSON_NUMERIC_CHECK);
