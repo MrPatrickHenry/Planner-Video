@@ -1,0 +1,18 @@
+web:
+  build: .
+  ports:
+    - "80:80"
+  links:
+    - mariadb
+  volumes:
+    - ~/Planner-Video/source:/var/www/html/
+
+mariadb:
+  image: mariadb
+  ports:
+    - "3306:3306"
+  environment:
+    MYSQL_ROOT_PASSWORD: my-secret-pw
+    MYSQL_DATABASE: vlogplanner
+    MYSQL_USER: vlogdbadmin
+    MYSQL_PASSWORD: gd09y4P585IS8jZ
