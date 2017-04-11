@@ -37,3 +37,8 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="/js/bootstrap-table.js"></script>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+
+<script type="text/javascript" src="js/velocity.js"></script>
+<script type="text/javascript" src="js/snap_svg.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
