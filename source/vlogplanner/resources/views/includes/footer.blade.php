@@ -117,14 +117,6 @@ function customersController($scope,$http) {
 $http.get('/vlog/entry', {cache: false})
 .success(function(data){$scope.entries = data;});
 
-$http.get('/api/v1/package/item/list', {cache: false})
-.success(function(data){$scope.packagesitems= data;});
-
-$http.get('/api/v1/event/upcoming',{cache:false})
-.success(function(response) {$scope.events = response;});
-
-$http.get('/api/v1/reporting/DealsContractType',{cache:false})
-.success(function(response) {$scope.reporting = response;});
 
 }
 </script>
