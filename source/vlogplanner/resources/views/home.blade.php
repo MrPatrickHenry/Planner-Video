@@ -34,7 +34,7 @@
                <input name="tags" placeholder="tags" type="text"></input>
                <input name="links" placeholder="links" type="text"></input>
                <input name="sites" placeholder="sites" type="text"></input>
-               <input name="social_media" placeholder="socials medias sites" type="text"></input>
+               <input name="social" placeholder="socials medias sites" type="text"></input>
                <input name="series" placeholder="series" type="text"></input>
                               <input name="no" placeholder="series" type="text"></input>
 
