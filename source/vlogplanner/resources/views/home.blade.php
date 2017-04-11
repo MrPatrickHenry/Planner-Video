@@ -30,7 +30,7 @@
                <input name="uploaded" placeholder="uploaded" type="date"></input>
                <label>scheduled</label>
 
-               <input name="schedlueded" placeholder="schedlueded" type="date"></input>
+               <input name="scheduled" placeholder="scheduled" type="date"></input>
                <input name="tags" placeholder="tags" type="text"></input>
                <input name="links" placeholder="links" type="text"></input>
                <input name="sites" placeholder="sites" type="text"></input>
