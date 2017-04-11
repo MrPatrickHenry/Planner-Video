@@ -11,8 +11,8 @@
 
 <table>
   <tr ng-repeat="x in entries">
-    <td>{{ x.id }}</td>
-    <td>{{ x.title }}</td>
+    <td>@{{ x.id }}</td>
+    <td>@{{ x.title }}</td>
   </tr>
 </table>
 
