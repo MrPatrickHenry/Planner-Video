@@ -122,12 +122,12 @@ $http.get('/vlog/entry', {cache: false})
 </script>
 
 
-<script src="https://events.private.linksynergy.com/app/js/extensions/export/bootstrap-table-export.js"></script>
-<script src="//rawgit.com/hhurz/tableExport.jquery.plugin/master/tableExport.js"></script>
+{{-- <script src="https://events.private.linksynergy.com/app/js/extensions/export/bootstrap-table-export.js"></script> --}}
+{{-- <script src="//rawgit.com/hhurz/tableExport.jquery.plugin/master/tableExport.js"></script>
 <script src="//rawgit.com/vitalets/x-editable/master/dist/bootstrap3-editable/js/bootstrap-editable.js"></script>
 <script src="https://events.private.linksynergy.com/app/js/extensions/mobile/bootstrap-table-mobile.js"></script>
-
-<script src="https://events.private.linksynergy.com/app/js/extensions/editable/bootstrap-table-editable.js"></script>
+ --}}
+{{-- <script src="https://events.private.linksynergy.com/app/js/extensions/editable/bootstrap-table-editable.js"></script> --}}
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <script>
