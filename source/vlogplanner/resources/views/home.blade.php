@@ -8,7 +8,7 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-<form method="POST" action="http://192.168.99.100/vlog/entry">
+<form method="POST" action="/vlog/entry">
             <div class="form-group">
 
 <fieldset>
