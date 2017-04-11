@@ -8,27 +8,50 @@
                             <h1 class="modal-title" id="myModalLabel">Add a New Rakuten Marketing Event</h1>
                         </div>
   <div class="modal-body">
-<form name="frmEmployees" class="form-horizontal" method="POST" action="api/v1/event/store" id='addEvent'>
-  
-  <input type="text" name="EventName" value=""  autofocus placeholder="Enter Event Name">
-  <label>Event Start Date</label>
-  <md-datepicker ng-model="birthday"></md-datepicker>
-  <input type="date" class="datepicker" name="EventStartDate" value="" required="true" placeholder="Event Start date">
-  <label>Event End Date</label>
-  <input type="date" name="EventEndDate" class="datepicker"value="" required="true" placeholder="Event End date">
-  <label>Event Registration Start Date</label>
+<div class="steps" id="steps">
+            <span class="step_nb"></span>
+            <p class="form_title">Enter V-Log information</p>
+            <form action="http://vlogplanner.patrickhenry.us:8080/vlog/entry" method="post" >
+              <ul>
+                <li class="current_step">
 
-  <input type="date" name="EventRegStart" class="datepicker" required="true" value="" placeholder="Event Start date">
-  <label>Event Registration End Date</label>
+                  <input name="title" placeholder="title" type="text"></input>
+                  <textarea name="desc" placeholder="desc"></textarea>
+                  <input name="preperation" placeholder="preperation" type="text"></input>
+                  <input name="materials" placeholder="materials" type="text"></input>
+                  <input name="series" placeholder="series" type="text"></input>
+                  <input name="no" placeholder="series" type="text"></input>
 
-  <input type="date" name="EventRegEnd" class="datepicker" required="true" value="" placeholder="Event End date">
-  <input type="text" name="EventAddress" value="" required="true" placeholder="Event address">
-  <input type="text" name="EventZipcode" value="" required="true" placeholder="Event Zipcode">
-  <label>Event Description</label>
-  <textarea rows="4" cols="75" name="EventDescription" required placeholder="Describe the Event"> </textarea>
+                </li>
+                <li>
+                  <input name="intro" placeholder="intro" type="text"></input>
+                  <input name="main" placeholder="main" type="text"></input>
+                  <input name="outro" placeholder="outro" type="text"></input>
+                  <input name="titles" placeholder="titles" type="text"></input>
+                  <input name="credits" placeholder="credits" type="text"></input>     
+                </li>
+                <li>
+                  <label>filmed</label>
+                  <input name="filmed" placeholder="filmed" type="date"></input>
+                  <label>uploaded</label>
 
-  <input type="submit" class="btn btn-primary waves-effect waves-light" id="btn-save" value="Save">
-  </form>
+                  <input name="uploaded" placeholder="uploaded" type="date"></input>
+                  <label>scheduled</label>
+                  <input name="scheduled" placeholder="scheduled" type="date"></input>
+                </li>
+                <li>
+                  <input name="tags" placeholder="tags" type="text"></input>
+                  <input name="links" placeholder="links" type="text"></input>
+                  <input name="sites" placeholder="sites" type="text"></input>
+                  <input name="social" placeholder="socials medias sites" type="text"></input>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+
+                </li>
+
+              </ul>
+            </form>
+            <span class="note">Note : you can hit "Enter" to move to next step</span>
+      </div>
   </div>
 
                     </div>

@@ -1,6 +1,12 @@
 @extends('layouts.single')
 
 @section('content')
+
+
+@include('includes.menu')
+
+
+
 <div class="app-content" id="data-items"  >
 
 <div class="container">
