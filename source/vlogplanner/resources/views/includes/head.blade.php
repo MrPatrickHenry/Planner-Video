@@ -18,7 +18,7 @@
 <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 <link href="/css/mdb.css" type="text/css" rel="stylesheet">
 <link href="/css/app.css" type="text/css" rel="stylesheet">
-<link href="/css/reset.css.css" type="text/css" rel="stylesheet">
+<link href="/css/reset.css" type="text/css" rel="stylesheet">
 <link href="/css/main.css" type="text/css" rel="stylesheet">
 
 <link href="/css/bootstrap.css" type="text/css" rel="stylesheet">
