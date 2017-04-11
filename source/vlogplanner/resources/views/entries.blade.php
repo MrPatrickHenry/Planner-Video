@@ -5,7 +5,7 @@
 
 @include('includes.menu')
 
-
+ @include('includes.modaladdform')
 
 <div class="app-content" id="data-items"  >
 
@@ -36,4 +36,7 @@
         </div>
     </div>
 </div>
+
+
+
 @endsection
