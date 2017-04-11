@@ -98,10 +98,9 @@ h5, h6          { font-weight: bolder }
 
 /*  form steps  */
 .steps{	
-	max-width: 500px;
 	height: auto;
 	margin: 0 auto;
-	padding: 70px 0;
+	padding: 70px 10%;
 	background: #ffffff;
 	border: 1px solid #e1e8f2;
 	position: relative;
@@ -201,8 +200,8 @@ h5, h6          { font-weight: bolder }
 
 
 .navigation_container{
-margin:0 auto;
-position: relative;
+float:right;
+margin-right: 50%;
 
 }
 

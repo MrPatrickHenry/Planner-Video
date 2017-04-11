@@ -7760,16 +7760,16 @@ Forms basic
 
 :-moz-placeholder {
   /* Firefox 18- */
-  color: #d1d1d1;
+  color: #000;
 }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #d1d1d1;
+  color: #000;
 }
 
 :-ms-input-placeholder {
-  color: #d1d1d1;
+  color: #000;
 }
 
 input[type=text],
@@ -7790,7 +7790,7 @@ textarea.materialize-textarea {
   outline: none;
   height: 3rem;
   width: 100%;
-  font-size: 1rem;
+  font-size: 2em;
   margin: 0 0 15px 0;
   padding: 0;
   box-shadow: none;
