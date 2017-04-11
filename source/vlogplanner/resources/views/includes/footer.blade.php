@@ -1,9 +1,3 @@
-<footer>
-Legal stuff • copyright 2015
-
-</footer>
-
-
 <script>
 
 // post
@@ -108,11 +102,6 @@ page: 1
 <script>
 
 function customersController($scope,$http) {
-//$http.get('/api/v1/event/upcoming', {cache: false})
-// .success(function(data){$scope.net = data; });
-
-// $http.get('/api/v1/event/upcoming', {cache: false})
-// .success(function(data){$scope.activecamps = data;});
 
 $http.get('/vlog/entry', {cache: false})
 .success(function(data){$scope.entries = data;});
