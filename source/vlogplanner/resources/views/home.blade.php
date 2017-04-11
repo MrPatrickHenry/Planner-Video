@@ -2,13 +2,8 @@
 @extends('layouts.single')
 @section('content')     
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
-			<div class="panel panel-default">
-				<div class="panel-heading">Dashboard</div>
-
-				<div class="panel-body">
+<div class="wrapper">
+		<a href="http://pixelhint.com/multiple-steps-form-animation-using-jquery-css3" class="back_link"> <img src="img/arrow.png" class="back_arrow_icon" title="" alt=""/> Go back to the tutorial</a>
 
 
 					<div class="steps" id="steps">
@@ -54,9 +49,5 @@
 							</ul>
 						</form>
 						<span class="note">Note : you can hit "Enter" to move to next step</span>
-					</div>
-
-
 			</div>
-		</div>
 		@endsection
