@@ -3,9 +3,7 @@
 @section('content')     
 
 <div class="wrapper">
-		<a href="http://pixelhint.com/multiple-steps-form-animation-using-jquery-css3" class="back_link"> <img src="img/arrow.png" class="back_arrow_icon" title="" alt=""/> Go back to the tutorial</a>
-
-
+	
 					<div class="steps" id="steps">
 						<span class="step_nb"></span>
 						<p class="form_title">Enter V-Log information</p>
@@ -49,5 +47,6 @@
 							</ul>
 						</form>
 						<span class="note">Note : you can hit "Enter" to move to next step</span>
+			</div>
 			</div>
 		@endsection
