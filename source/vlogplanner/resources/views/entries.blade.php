@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.single')
 
 @section('content')
 <div class="app-content" id="data-items"  >
