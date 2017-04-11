@@ -5,7 +5,6 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                            <h1 class="modal-title" id="myModalLabel">Add a New Rakuten Marketing Event</h1>
                         </div>
   <div class="modal-body">
 <div class="steps" id="steps">

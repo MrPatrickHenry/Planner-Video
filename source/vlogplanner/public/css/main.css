@@ -199,6 +199,13 @@ h5, h6          { font-weight: bolder }
 	margin-top: 50px;
 }
 
+
+.navigation_container{
+margin:0 auto;
+position: relative;
+
+}
+
 .navigation_container li{
 	list-style: none;
 	position: relative;
