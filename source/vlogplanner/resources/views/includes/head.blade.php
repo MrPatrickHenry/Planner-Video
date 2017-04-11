@@ -1,6 +1,6 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
 <meta charset="utf-8">
-<title>Rakuten Marketing Events Platform</title>
+<title>Vlog Planner</title>
 <meta name="generator" content="Bootply" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Rakuten Events Platform" />
@@ -15,11 +15,11 @@
 
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
-<link href="https://events.private.linksynergy.com/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-<link href="https://events.private.linksynergy.com/css/mdb.css" type="text/css" rel="stylesheet">
-<link href="https://events.private.linksynergy.com/css/app.css" type="text/css" rel="stylesheet">
+<link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="/css/mdb.css" type="text/css" rel="stylesheet">
+<link href="/css/app.css" type="text/css" rel="stylesheet">
 
-<link href="https://events.private.linksynergy.com/app/css/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="/css/bootstrap.css" type="text/css" rel="stylesheet">
 
 <link href="http://cdn.fit-award.com/css/animate.css" type="text/css" rel="stylesheet">
 
@@ -27,17 +27,13 @@
 <link rel="stylesheet" href="//rawgit.com/vitalets/x-editable/master/dist/bootstrap3-editable/css/bootstrap-editable.css">
 <!-- CSS code from Bootply.com editor -->
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script type='text/javascript' src="https://events.private.linksynergy.com/js/bootstrap.min.js"></script>
-<script type='text/javascript' src="https://events.private.linksynergy.com/js/mdb.js"></script>
+<script type='text/javascript' src="/js/bootstrap.min.js"></script>
+<script type='text/javascript' src="/js/mdb.js"></script>
 
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://events.private.linksynergy.com/app/css/bootstrap-table.css">
+<link rel="stylesheet" href="css/bootstrap-table.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.0/animate.min.css" type="text/css" rel="stylesheet">
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://events.private.linksynergy.com/app/js/bootstrap-table.js"></script>
+<script src="/js/bootstrap-table.js"></script>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/data.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
