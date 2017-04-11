@@ -3,60 +3,60 @@
 @section('content')     
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="panel panel-default">
+				<div class="panel-heading">Dashboard</div>
 
-                <div class="panel-body">
+				<div class="panel-body">
 
 
-<div class="steps" id="steps">
-<span class="step_nb"></span>
-<p class="form_title">Enter V-Log information</p>
-<form action="http://vlogplanner.patrickhenry.us:8080/vlog/entry" method="post" autocomplete="off">
-<ul>
-<li class="current_step">
+					<div class="steps" id="steps">
+						<span class="step_nb"></span>
+						<p class="form_title">Enter V-Log information</p>
+						<form action="http://vlogplanner.patrickhenry.us:8080/vlog/entry" method="post" >
+							<ul>
+								<li class="current_step">
 
-                <input name="title" placeholder="title" type="text"></input>
-<textarea name="desc" placeholder="desc"></textarea>
-<input name="preperation" placeholder="preperation" type="text"></input>
-<input name="materials" placeholder="materials" type="text"></input>
-<input name="series" placeholder="series" type="text"></input>
-<input name="no" placeholder="series" type="text"></input>
+									<input name="title" placeholder="title" type="text"></input>
+									<textarea name="desc" placeholder="desc"></textarea>
+									<input name="preperation" placeholder="preperation" type="text"></input>
+									<input name="materials" placeholder="materials" type="text"></input>
+									<input name="series" placeholder="series" type="text"></input>
+									<input name="no" placeholder="series" type="text"></input>
 
-</li>
-<li>
-<input name="intro" placeholder="intro" type="text"></input>
-<input name="main" placeholder="main" type="text"></input>
-<input name="outro" placeholder="outro" type="text"></input>
-<input name="titles" placeholder="titles" type="text"></input>
-<input name="credits" placeholder="credits" type="text"></input>     
-</li>
-<li>
-<label>filmed</label>
-<input name="filmed" placeholder="filmed" type="date"></input>
-<label>uploaded</label>
+								</li>
+								<li>
+									<input name="intro" placeholder="intro" type="text"></input>
+									<input name="main" placeholder="main" type="text"></input>
+									<input name="outro" placeholder="outro" type="text"></input>
+									<input name="titles" placeholder="titles" type="text"></input>
+									<input name="credits" placeholder="credits" type="text"></input>     
+								</li>
+								<li>
+									<label>filmed</label>
+									<input name="filmed" placeholder="filmed" type="date"></input>
+									<label>uploaded</label>
 
-<input name="uploaded" placeholder="uploaded" type="date"></input>
-<label>scheduled</label>
-<input name="scheduled" placeholder="scheduled" type="date"></input>
-</li>
-<li>
-<input name="tags" placeholder="tags" type="text"></input>
-<input name="links" placeholder="links" type="text"></input>
-<input name="sites" placeholder="sites" type="text"></input>
-<input name="social" placeholder="socials medias sites" type="text"></input>
-<button type="submit" class="btn btn-primary">Submit</button>
+									<input name="uploaded" placeholder="uploaded" type="date"></input>
+									<label>scheduled</label>
+									<input name="scheduled" placeholder="scheduled" type="date"></input>
+								</li>
+								<li>
+									<input name="tags" placeholder="tags" type="text"></input>
+									<input name="links" placeholder="links" type="text"></input>
+									<input name="sites" placeholder="sites" type="text"></input>
+									<input name="social" placeholder="socials medias sites" type="text"></input>
+									<button type="submit" class="btn btn-primary">Submit</button>
 
-</li>
+								</li>
 
-</ul>
-</form>
-<span class="note">Note : you can hit "Enter" to move to next step</span>
-</div>
+							</ul>
+						</form>
+						<span class="note">Note : you can hit "Enter" to move to next step</span>
+					</div>
 
-        </div>
-    </div>
-</div>
-@endsection
+
+			</div>
+		</div>
+		@endsection
